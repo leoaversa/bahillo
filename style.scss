@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.cover {
+    background-image: url(./assets/img/tortawide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+
+    h1{
+        color: white;
+        font-size: 40px;
+        margin-left: 30px;
+        font-weight: bold;
+        
+    }   
+    
+    h3{
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.801);
+        margin-left: 30px;
+    }
+
+    button {
+        margin-top: 5px;
+        background-color: #C11E23;
+        border-color: #C11E23;
+        margin-left: 30px;
+    }
+}
+
+.textohistoria{
+
+    h4{
+        font-size: 15px;
+        color: gray;
+          }
+
+    h2{
+        font-weight: bold;
+
+          }
+
+    p{
+        color: gray;
+
+    }
+
+
+}
+
+.textproducts{
+    h2{
+        font-weight: bold;
+        text-align: center;
+        font-size: 27px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: gray;
+    }
+}
+
+.backcolor{
+    padding: 12px 0px 12px 0px;
+    background-color: rgba(201, 201, 201, 0.11);
+}
+
+.cover2 {
+    background-image: url(./assets/img/heladowide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+
+    h1{
+        color: white;
+        font-size: 40px;
+        margin-left: 30px;
+        font-weight: bold;
+        
+    }   
+    
+    h3{
+        font-size: 15px;
+        color: rgb(243, 243, 243);
+        margin-left: 30px;
+    }
+
+    button {
+        margin-top: 5px;
+        background-color: #C11E23;
+        border-color: #C11E23;
+        margin-left: 30px;
+    }
+}
+
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.btn{
+    background-color: #C11E23;
+    border-color: #C11E23;
+}
+
+.instagram{
+    background-image: url(./assets/icons/instagram.svg);
+    background-repeat: no-repeat;
+}
+
+.face{
+    background-image: url(./assets/icons/icons8-facebook.svg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    
+}
+
+
