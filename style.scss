@@ -25,7 +25,7 @@
         margin-left: 30px;
     }
 
-    button {
+    a {
         margin-top: 5px;
         background-color: #C11E23;
         border-color: #C11E23;
@@ -111,16 +111,123 @@
     border-color: #C11E23;
 }
 
-.instagram{
-    background-image: url(./assets/icons/instagram.svg);
-    background-repeat: no-repeat;
+
+
+/* CONTACT */
+
+.textcontact{
+
+    h2{
+        font-weight: bold;
+        text-align: center;
+        font-size: 34px;
+        margin-bottom: 0px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: gray;
+    }
 }
 
-.face{
-    background-image: url(./assets/icons/icons8-facebook.svg);
-    background-repeat: no-repeat;
-    background-position: 0%;
+.red-color {
+    color:red;
+}
+
+/* HELADOS */
+
+.container div {
+    line-height: 30px;
+    
+    ul{
+    list-style: none;
+    margin-top:15px;
+    font-style: bold;
+
+    li{
+        font-weight: 450;
+    }
     
 }
+
+.strong{
+    font-weight: bold;
+    color: #C11E23;
+}
+
+}
+
+.ingredientes{
+    margin-top: -20px;
+    font-weight: 400;
+}
+.ingredientes2{
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.backgustos{
+    background-image: url(./assets/img/fondo.png);
+    background-size: contain;
+}
+
+
+
+
+@media (max-width: 991px) {
+
+    nav img {
+        width: 100px;
+    }
+
+    
+    .cover{
+        background-size: cover;
+        background-position: 60%;
+
+        h1{
+            font-size: 30px;
+        }
+        
+        
+    }
+
+    .col-3{
+        width: 250px;
+
+    }
+
+    .cover2{
+        background-position: 90%;
+    h1{
+        font-size: 30px;
+    }
+    }
+
+    .flexproducts {
+        margin-left: 40px;
+    }
+
+ } 
+
+@media (max-width: 746px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
