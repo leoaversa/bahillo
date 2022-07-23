@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cover {
+  background-image: url(./assets/img/tortawide.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
+.cover h1 {
+  color: white;
+  font-size: 40px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.cover h3 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.801);
+  margin-left: 30px;
+}
+
+.cover a {
+  margin-top: 5px;
+  background-color: #C11E23;
+  border-color: #C11E23;
+  margin-left: 30px;
+}
+
+.flexproducts h5 {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.flexproducts p {
+  font-size: 15px;
+}
+
+.textohistoria h4 {
+  font-size: 15px;
+  color: gray;
+}
+
+.textohistoria h2 {
+  font-weight: bold;
+}
+
+.textohistoria p {
+  color: gray;
+}
+
+.textproducts h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 27px;
+}
+
+.textproducts p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+}
+
+.backcolor {
+  padding: 12px 0px 12px 0px;
+  background-color: rgba(201, 201, 201, 0.11);
+}
+
+.cover2 {
+  background-image: url(./assets/img/heladowide.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
+.cover2 h1 {
+  color: white;
+  font-size: 38px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.cover2 h3 {
+  font-size: 15px;
+  color: #f3f3f3;
+  margin-left: 30px;
+}
+
+.cover2 button {
+  margin-top: 5px;
+  background-color: #C11E23;
+  border-color: #C11E23;
+  margin-left: 30px;
+}
+
+.card {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+.inner:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.btn {
+  background-color: #C11E23;
+  border-color: #C11E23;
+}
+
+/* CONTACT */
+.textcontact h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 0px;
+}
+
+.textcontact p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+}
+
+.red-color {
+  color: red;
+}
+
+/* HELADOS */
+.container div {
+  line-height: 30px;
+}
+
+.container div ul {
+  list-style: none;
+  margin-top: 15px;
+  font-style: bold;
+}
+
+.container div ul li {
+  font-weight: 450;
+}
+
+.container div .strong {
+  font-weight: bold;
+  color: #C11E23;
+}
+
+.ingredientes {
+  margin-top: -20px;
+  font-weight: 400;
+}
+
+.ingredientes2 {
+  margin-top: -20px;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.backgustos {
+  background-image: url(./assets/img/fondo.png);
+  background-size: contain;
+}
+
+/* PAG TORTAS */
+.titulo-tortas h1 {
+  color: black;
+  font-size: 40px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.titulo-tortas p {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.texto-torta h2 {
+  font-size: 20px;
+  width: 500px;
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.texto-torta p {
+  font-size: 15px;
+}
+
+/* MEDIA QUERYS */
+@media (max-width: 991px) {
+  nav img {
+    width: 100px;
+  }
+  .cover {
+    background-size: cover;
+    background-position: 60%;
+  }
+  .cover h1 {
+    font-size: 30px;
+  }
+  .col-3 {
+    width: 250px;
+  }
+  .cover2 {
+    background-position: 90%;
+  }
+  .cover2 h1 {
+    font-size: 30px;
+  }
+  .flexproducts {
+    margin-left: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
