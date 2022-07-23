@@ -4,6 +4,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  margin-top: 48px;
+}
+
 .cover {
   background-image: url(./assets/img/tortawide.jpg);
   background-repeat: no-repeat;
@@ -16,6 +20,12 @@
   font-size: 40px;
   margin-left: 30px;
   font-weight: bold;
+}
+
+.cover h2 {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.801);
+  margin-left: 30px;
 }
 
 .cover h3 {
@@ -38,6 +48,7 @@
 
 .flexproducts p {
   font-size: 15px;
+  line-height: 25px;
 }
 
 .textohistoria h4 {
@@ -51,6 +62,14 @@
 
 .textohistoria p {
   color: gray;
+}
+
+.form-helados {
+  margin-top: 500px;
+}
+
+.textproducts {
+  margin-top: 100px;
 }
 
 .textproducts h2 {
@@ -142,6 +161,10 @@
 }
 
 /* HELADOS */
+.espacio {
+  margin-top: 500px;
+}
+
 .container div {
   line-height: 30px;
 }
@@ -178,6 +201,13 @@
 }
 
 /* PAG TORTAS */
+.titulo-tortas {
+  width: 100%;
+  background-image: url(./assets/img/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .titulo-tortas h1 {
   color: black;
   font-size: 40px;
